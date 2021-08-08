@@ -1,6 +1,6 @@
 const products = [
     {
-      _id: '1',
+     
       type : 'Oximeter',
       image: '/images/airpods.jpg',
       description:
@@ -8,9 +8,10 @@ const products = [
       location : 'Lal Bungalow, Jajmau Sub Metro City, Kanpur, Uttar Pradesh 208007',
       price: 89.99,
       countInStock: 10,
+      availability : 1,
     },
     {
-      _id: '2',
+      
       type: 'ICU -Beds',
       image: '/images/phone.jpg',
       description:
@@ -18,9 +19,10 @@ const products = [
       location: 'Cantonment, Gale Rd, Kanpur, Uttar Pradesh 208001',
       price: 599.99,
       countInStock: 7,
+      availability: 0,
     },
     {
-      _id: '3',
+      
       type: 'Normal Beds',
       image: '/images/camera.jpg',
       description:
@@ -28,9 +30,10 @@ const products = [
       location: '2, Rawatpur Main Rd, Moti Vihar Society, Rawat Pur, Crossing, Uttar Pradesh 208012',
       price: 929.99,
       countInStock: 5,
+      availability :1,
     },
     {
-      _id: '4',
+     
       type: 'Oxygen Concentrator',
       image: '/images/playstation.jpg',
       description:
@@ -38,9 +41,10 @@ const products = [
       location: 'GujainiKanpur, Uttar Pradesh',
       price: 399.99,
       countInStock: 11,
+      availability:1,
     },
     {
-      _id: '5',
+
       type: 'Oxygen Cylinder',
       image: '/images/mouse.jpg',
       description:
@@ -48,9 +52,10 @@ const products = [
       location: '203 Mangla Vihar_2, 60 Feet Rd, Tiranga Chauraha, Kanpur, Uttar Pradesh 208015',
       price: 49.99,
       countInStock: 7,
+      availability:1,
     },
     {
-      _id: '6',
+      
       type: 'ICU -BEDS',
       image: '/images/alexa.jpg',
       description:
@@ -58,6 +63,7 @@ const products = [
       location: '16/17, Block K, Govind Nagar, Kanpur, Uttar Pradesh 208006',
       price: 29.99,
       countInStock: 2,
+      availability:0,
     },
   ]
   

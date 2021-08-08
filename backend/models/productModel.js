@@ -28,6 +28,11 @@ const productSchema = mongoose.Schema({
         type : Number ,
         required : true ,
         default : 0
+    },
+    availability:{
+        type: Boolean,
+        required : true,
+        default :1
     }
 
 
@@ -35,6 +40,6 @@ const productSchema = mongoose.Schema({
     timestamps : true
 })
 
-const Product =  mongoose.model('User' , productSchema)
+const Product =  mongoose.model('Product' , productSchema)
 
 module.exports = Product

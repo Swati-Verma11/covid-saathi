@@ -1,16 +1,19 @@
 const mongoose = require('mongoose')
 
-const productSchema = mongoose.Schema({
+const addressSchema = mongoose.Schema({
     user:{
         type : mongoose.Schema.Types.ObjectId,
-        required : true ,
+        required : true ,  
         ref : 'User'
     },
     productAddress:{
         address : {type: String , required : true },
         city : {type : String , required : true },
         pinCode : {type: Number , required : true},
-        country : {type : String , required : true , default : 'India'}
+        country : {type : String , required : true , default : 'India'},
+        lat : { type: Float , default :0 ,},
+        location : {string }
+        
 
     }
 
